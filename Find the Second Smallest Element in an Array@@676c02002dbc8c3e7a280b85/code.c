@@ -8,10 +8,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int small=arr[0];
+    int sec_small=arr[0];
     for(int i=0;i<n;i++){
         if(small>arr[i]){
               small=arr[i];
-        }}
-        printf("%d",small);
+              sec_small=small;
+        }
+}
+        printf("%d",sec_small);
     return 0;
 }
