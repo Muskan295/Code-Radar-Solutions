@@ -11,8 +11,8 @@ int main(){
     int sec_small=arr[0];
     for(int i=0;i<n;i++){
         if(small>arr[i]){
-              small=arr[i];
               sec_small=small;
+              small=arr[i];
         }
 }
         printf("%d",sec_small);
