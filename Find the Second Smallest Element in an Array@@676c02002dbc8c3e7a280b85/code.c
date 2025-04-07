@@ -11,8 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(small>arr[i]){
               small=arr[i];
-        }
+        }}
         printf("%d",small);
-    }
     return 0;
 }
