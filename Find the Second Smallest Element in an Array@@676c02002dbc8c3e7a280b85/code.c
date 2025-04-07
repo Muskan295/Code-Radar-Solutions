@@ -12,10 +12,10 @@ int main(){
     for(int i=0;i<n;i++){
         if(small>arr[i]){
               small=arr[i];
-        }}
+        }
         if (sec_small>small && sec_small<arr[i]){
             printf("%d",sec_small);
         }
-
+    }
     return 0;
 }
