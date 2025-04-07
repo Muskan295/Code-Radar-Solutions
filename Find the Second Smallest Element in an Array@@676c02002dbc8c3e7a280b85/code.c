@@ -11,10 +11,11 @@ int main(){
     int sec_small=arr[0];
     for(int i=0;i<n;i++){
         if(small>arr[i]){
-              sec_small=small;
               small=arr[i];
         }
-}
-        printf("%d",sec_small);
+        if (sec_small>small && sec_small<arr[i]){
+            printf("%d",sec_small);
+        }
+
     return 0;
 }
