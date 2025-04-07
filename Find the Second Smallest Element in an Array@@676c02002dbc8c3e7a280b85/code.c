@@ -15,7 +15,7 @@ int main(){
         }
         if (sec_small>small && sec_small<arr[i]){
             printf("%d",sec_small);
-        }
+        }}
 
     return 0;
 }
