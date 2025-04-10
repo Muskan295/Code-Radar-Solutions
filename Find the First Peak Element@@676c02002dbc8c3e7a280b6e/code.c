@@ -11,18 +11,17 @@ int main(){
             printf("%d",larg);
             break;
         }
-        if((larg<arr[i])&&(arr[i]>arr[i+1])){
+        else if((i==n-1 && arr[i]>arr[i-1])){
              printf("%d",arr[i]);
              break;
         }
-        if(arr[i]>=arr[i+1]){
-            printf("%d",-1);
+        else if(i>0 && i<n-1 && arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
             break;
         }
-        else if(larg<arr[i]){
-            larg=arr[i];
-        }printf("%d",larg);
-
+        if (i==n-1){
+            printf("-1");
+        }
 
     }return 0;
 }
