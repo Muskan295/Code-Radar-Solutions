@@ -15,6 +15,7 @@ int main(){
               small=arr[i];
         }
         if (arr[i]!=small && arr[i]<sec_small){
+            sec_small=arr[i];
         }
     }if(sec_small==INT_MAX){
         printf("-1");}
