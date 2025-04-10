@@ -12,7 +12,7 @@ int main() {
          case '-':printf("%d\n",sub);break;
          case '*':printf("%d\n",multiply);break;
          case '/':
-         if(n2!=0){printf("%.2f\n",div);}break;
+         if(n2!=0){printf("%.2f\n",div);}
          else{printf("error\n");}break;
          default:printf("error");}
          return 0;
