@@ -4,9 +4,9 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-    scanf("%d\n",&arr[i]);}
+    scanf("%d",&arr[i]);}
      int larg=arr[0];
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
          if(larg>arr[i]){
             printf("%d",larg);
             break;
