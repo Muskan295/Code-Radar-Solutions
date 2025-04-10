@@ -14,6 +14,6 @@ int main() {
          case '/':
          if(n2!=0){printf("%.2f\n",div);}
          else{printf("error\n");}break;
-         default:printf("error");}break;
+         default:printf("error");}
          return 0;
 }
