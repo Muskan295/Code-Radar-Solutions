@@ -8,8 +8,8 @@ int main(){
     }
     for(int i=0;i<N;i++){
         for(int j=i;j<N;j++){
-            arr[j]=arr[i];
-        }printf("%d ",arr[j]);
+            arr[i]=arr[j];
+        }printf("%d ",arr[i]);
     }
     return 0;
 }
