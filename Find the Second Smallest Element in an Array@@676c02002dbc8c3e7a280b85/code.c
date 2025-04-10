@@ -17,10 +17,10 @@ int main(){
         if (arr[i]!=small && arr[i]<sec_small){
         }
     }if(sec_small==INT_MAX){
-        printf("-1");
+        printf("-1");}
     else{
         printf("%d",sec_small);
     }
-    }
+    
     return 0;
 }
