@@ -12,8 +12,11 @@ int main(){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-            }printf("%d ",arr[j]);
+            }
         }
+    }
+    for(int i=0;i<N;i++){
+        printf("%d ",arr[i]);
     }
     return 0;
 }
