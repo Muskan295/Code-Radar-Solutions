@@ -19,10 +19,10 @@ int main(){
             printf("%d",-1);
             break;
         }
-        if(larg<arr[i]){
+        else if(larg<arr[i]){
             larg=arr[i];
         }printf("%d",larg);
-        
+
 
     }return 0;
 }
