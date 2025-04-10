@@ -9,7 +9,7 @@ int main(){
     }
     int small=INT_MAX;
     int sec_small=INT_MAX;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         if(small>arr[i]){
               sec_small=small;
               small=arr[i];
