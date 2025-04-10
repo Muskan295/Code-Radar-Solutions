@@ -6,7 +6,7 @@ int main() {
     int sum = n1 + n2;
     int sub = n1 - n2;
     int multiply = n1 * n2;
-    int div = n2!=0 ? n1/n2;
+    int div = n2!=0 ? n1/n2:0;
     switch (ch){
          case '+':printf("%d\n",sum);break;
          case '-':printf("%d\n",sub);break;
