@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d %s %f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
-   for(int i=0;i<n;i++){
+   for(int i=0;i<n-1;i++){
     for(int j=0;j<n-i-1;j++){
         if(s[i].Marks > s[j].Marks){
             int temp=s[i].Marks;
