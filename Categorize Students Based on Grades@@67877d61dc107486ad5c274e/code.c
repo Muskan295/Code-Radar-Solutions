@@ -13,13 +13,13 @@ int main(){
     scanf("%d  %s %f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
     for(int i=0;i<n;i++){
-        if(s[i].Marks >= 85){
+        if(s[i].Marks >= 85.00){
             s[i].Grade = 'A';
         }
-        if (s[i].Marks>=70 && s[i].Marks<=84){
+        if (s[i].Marks>=70.00 && s[i].Marks<=84.00){
             s[i].Grade = 'B';
         }
-        if(s[i].Marks < 70){
+        if(s[i].Marks < 70.00){
             s[i].Grade = 'C';
         }
         printf("Roll Number: %d, Name: %s, Grade: %c\n",s[i].RollNo,s[i].Name,s[i].Grade);
