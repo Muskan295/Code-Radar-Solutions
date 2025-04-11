@@ -10,9 +10,9 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d  %d",&s[i].length,&s[i].length);
     }
-    float area=s[i].length*s[i].breadth;
-    float perimeter=2*(s[i].length+s[i].breadth);
     for(int i=0;i<n;i++){
+        float area=s[i].length*s[i].breadth;
+    float perimeter=2*(s[i].length+s[i].breadth);
         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i,area,perimeter);
         }
 
