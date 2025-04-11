@@ -7,8 +7,9 @@ struct Student{
 int main(){
     int n;
     scanf("%d",&n);
+    struct Student s[n];
     for(int i=0;i<n;i++){
-    scanf("%d",struct Student s[i]);
+    scanf("%d",s[i]);
     }
     for(int i=0;i<n;i++){
         printf("Roll Number: %d, Name: %s,Marks: %.2f",s[i].RollNo,strcpy(s[i].Name,s[i]),s[i].Marks);
