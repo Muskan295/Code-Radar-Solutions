@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d %.2f",s[i].RollNo,s[i].Marks);
     }
-    for(int i=0;i++){
+    for(int i=0;i<n;i++){
         scanf("%s",strcpy(s[i].Name,s[i]));
     }
 
