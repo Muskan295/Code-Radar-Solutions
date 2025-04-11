@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&n);
     struct Rectangle s[n];
     for(int i=0;i<n;i++){
-    scanf("%d  %d",&s[i].length,&s[i].length);
+    scanf("%d  %d",&s[i].length,&s[i].breadth);
     }
     for(int i=0;i<n;i++){
         float area = s[i].length * s[i].breadth;
