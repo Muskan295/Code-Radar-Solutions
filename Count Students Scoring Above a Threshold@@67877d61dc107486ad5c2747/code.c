@@ -17,7 +17,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(threshold<s[i].Marks){
             count++;
-        }printf("Counts of students scoring above %d: %d",threshold,count);
-     }
+        }}
+    printf("Counts of students scoring above %d: %d",threshold,count);
     return 0;
 }
