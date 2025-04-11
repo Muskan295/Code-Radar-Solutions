@@ -15,7 +15,7 @@ int main(){
     for(int j=0;j<n-i-1;j++){
         if(s[i].Marks > s[j].Marks){
             int temp=s[i].Marks;
-            s[i].Marks=s[i+1].marks;
+            s[i].Marks=s[i+1].Marks;
             s[i+1].Marks=temp;
         }
     }
