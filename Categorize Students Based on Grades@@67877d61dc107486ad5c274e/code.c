@@ -22,7 +22,7 @@ int main(){
         else{
             s[i].Grade = 'C';
         }
-        printf("Roll number: %d, Name: %s, Grade: %c",i+1,s[i].Name,s[i].Grade);
+        printf("Roll number: %d, Name: %s, Grade: %c\n",i+1,s[i].Name,s[i].Grade);
     }
     return 0;
 
