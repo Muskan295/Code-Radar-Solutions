@@ -9,10 +9,14 @@ int main(){
     scanf("%d",&n);
     struct Student s[n];
     for(int i=0;i<n;i++){
-    scanf("%d",s[i]);
+    scanf("%d %.2f",s[i].RollNo,s[i].Marks);
     }
+    for(int i=0;i++){
+        scanf("%s",strcpy(s[i].Name,s[i]);)
+    }
+
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, Name: %s,Marks: %.2f",s[i].RollNo,strcpy(s[i].Name,s[i]),s[i].Marks);
+        printf("Roll Number: %d, Name: %s,Marks: %.2f",s[i].RollNo,s[i].Name,s[i].Marks);
     }
     return 0;
 
