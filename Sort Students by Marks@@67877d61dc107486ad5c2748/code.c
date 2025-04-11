@@ -14,9 +14,9 @@ int main(){
    for(int i=0;i<n;i++){
     for(int j=0;j<=n-i-1;j++){
         if(s[j].Marks > s[j].Marks){
-            struct Student temp=s[j].Marks;
-            s[j].Marks=s[j+1].Marks;
-            s[j+1].Marks=temp;
+            struct Student temp=s[j];
+            s[j]=s[j+1];
+            s[j+1]=temp;
         }
     }
    }
