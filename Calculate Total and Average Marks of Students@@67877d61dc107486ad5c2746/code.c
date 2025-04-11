@@ -16,7 +16,7 @@ int main(){
         total+=s[i].Marks;
     }
     float average = total/n;
-    printf("Total Marks: %.2f",total);
+    printf("Total Marks: %.2f\n",total);
     printf("Average Marks: %.2f",average);
 
     return 0;
