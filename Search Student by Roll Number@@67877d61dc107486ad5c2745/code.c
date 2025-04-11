@@ -20,7 +20,7 @@ int main(){
         found=1;
         break;
      }
-     else{
+     if(!found){
         printf("Student not found");
         break;
      }
