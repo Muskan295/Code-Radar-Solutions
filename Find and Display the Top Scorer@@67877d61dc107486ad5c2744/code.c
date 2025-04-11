@@ -11,9 +11,9 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d %s %f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
-    int top_score=s[0].Marks;
+    int top_score=s[0];
     for(int i=0;i<n;i++){
-        if(top_score<s[i].Marks){
+        if(top_score.Marks<s[i].Marks){
             top_score=s[i].Marks;
         }
      printf("Roll Number: %d, Name: %s,Marks: %.2f\n",top_score.RollNo,top_score.Name,top_score);}
