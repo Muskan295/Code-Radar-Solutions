@@ -12,10 +12,12 @@ int main(){
     scanf("%d  %s %f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
     int search;
+    int  found=false;
     scanf("%d",&search);
     for(int i=0;i<n;i++){
         if(search==s[i].RollNo){
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].RollNo,s[i].Name,s[i].Marks);
+        found=true;
         break;
      }
      else{
