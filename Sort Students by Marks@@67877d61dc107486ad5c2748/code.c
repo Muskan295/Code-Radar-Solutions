@@ -21,7 +21,7 @@ int main(){
     }
    }
    for(int i=0;i<n;i++){
-    printf("")
+     printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].RollNo,s[i].Name,s[i].Marks);
    }
   return 0;
 }
