@@ -13,15 +13,15 @@ int main(){
     }
    for(int i=0;i<n;i++){
     for(int j=0;j<=n-i-1;j++){
-        if(s[i].Marks > s[j].Marks){
-            int temp=s[i].Marks;
-            s[i].Marks=s[i+1].Marks;
-            s[i+1].Marks=temp;
+        if(s[j].Marks > s[j].Marks){
+            int temp=s[j].Marks;
+            s[j].Marks=s[j+1].Marks;
+            s[j+1].Marks=temp;
         }
     }
    }
    for(int i=0;i<n;i++){
-     printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[temp].RollNo,s[temp].Name,s[i].Marks);
+     printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].RollNo,s[i].Name,s[i].Marks);
    }
   return 0;
 }
