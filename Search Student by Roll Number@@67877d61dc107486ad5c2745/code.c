@@ -22,7 +22,7 @@ int main(){
      }}
      if(!found){
         printf("Student not found");
-        break;
+    
      }
 
     return 0;
