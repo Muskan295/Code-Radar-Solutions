@@ -13,7 +13,7 @@ int main(){
     }
     int top_score=s[0].Marks;
     for(int i=0;i<n;i++){
-        if(top_score.Marks<s[i].Marks){
+        if(top_score <s[i].Marks){
             top_score=s[i].Marks;
         }
      printf("Roll Number: %d, Name: %s,Marks: %.2f\n",s[i].RollNo,s[i].Name,top_score);}
