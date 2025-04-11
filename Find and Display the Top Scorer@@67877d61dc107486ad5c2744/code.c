@@ -17,6 +17,6 @@ int main(){
             top_score= i;
         }
     }
-     printf("Roll Number: %d, Name: %s,Marks: %.2f\n",s[top_score].RollNo,s[top_score].Name,s[top_score].Marks);
+     printf("Top Scorer: Roll Number: %d, Name: %s,Marks: %.2f\n",s[top_score].RollNo,s[top_score].Name,s[top_score].Marks);
   return 0;
 }
