@@ -16,7 +16,7 @@ int main(){
         if(s[i].Marks >= 85.00){
             s[i].Grade = 'A';
         }
-        if (s[i].Marks>=70.00 && s[i].Marks<=84.00){
+        if (s[i].Marks>=70.00 && s[i].Marks<85.00){
             s[i].Grade = 'B';
         }
         if(s[i].Marks < 70.00){
