@@ -22,7 +22,7 @@ int main(){
         if(s[i].Marks < 70){
             s[i].Grade = 'C';
         }
-        printf("Roll number: %d, Name: %s, Grade: %c\n",s[i].RollNo,s[i].Name,s[i].Grade);
+        printf("Roll Number: %d, Name: %s, Grade: %c\n",s[i].RollNo,s[i].Name,s[i].Grade);
     }
     return 0;
 
