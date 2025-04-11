@@ -16,9 +16,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(search==s[i].RollNo){
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].RollNo,s[i].Name,s[i].Marks);
+        break;
      }
      else{
         printf("Student not found");
+        break;
      }
 }
     return 0;
