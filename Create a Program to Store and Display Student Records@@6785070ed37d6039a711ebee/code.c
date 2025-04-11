@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&n);
     struct Student s[n];
     for(int i=0;i<n;i++){
-    scanf("%d  %d %.2f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
+    scanf("%d  %s %.2f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
     for(int i=0;i<n;i++){
         printf("Roll Number: %d, Name: %s,Marks: %.2f\n",s[i].RollNo,s[i].Name,s[i].Marks);
