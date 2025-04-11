@@ -12,15 +12,16 @@ int main(){
     scanf("%d  %s %f",&s[i].RollNo,&s[i].Name,&s[i].Marks);
     }
     float threshold=50;
-    int count=0;
+    int count=1;
     for(int i=0;i<n;i++){
-        if(threshold<s[i].Marks){
-            printf("All Passed");
-            count=1;
+        if(threshold>s[i].Marks){
+            printf("Not All Passed");
+            count=0;
             break;
-        }}
-        if(!count){
-          printf("Not All Passed");
+        }
+    }
+        if(count){
+          printf("All Passed");
         }
     return 0;
 }
